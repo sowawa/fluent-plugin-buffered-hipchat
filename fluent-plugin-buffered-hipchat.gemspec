@@ -2,13 +2,13 @@
 $:.push File.expand_path('../lib', __FILE__)
 
 Gem::Specification.new do |gem|
-  gem.name        = "fluent-plugin-hipchat"
-  gem.description = "fluent HipChat plugin"
-  gem.homepage    = "https://github.com/hotchpotch/fluent-plugin-hipchat"
+  gem.name        = "fluent-plugin-buffered-hipchat"
+  gem.description = "fluent buffered HipChat plugin"
+  gem.homepage    = "https://github.com/sowawa/fluent-plugin-buffered-hipchat"
   gem.summary     = gem.description
   gem.version     = File.read("VERSION").strip
-  gem.authors     = ["Yuichi Tateno"]
-  gem.email       = "hotchpotch@gmail.com"
+  gem.authors     = ["Keisuke SOGAWA"]
+  gem.email       = "keisuke.sogawa@gmail.com"
   gem.has_rdoc    = false
   gem.files       = `git ls-files`.split("\n")
   gem.test_files  = `git ls-files -- {test,spec,features}/*`.split("\n")
