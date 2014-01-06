@@ -2,12 +2,12 @@
 
 = Installation
 
-  $ fluent-gem install fluent-plugin-hipchat
+  $ fluent-gem install fluent-plugin-buffered-hipchat
 
 = Usage
 
     <match hipchat>
-      type hipchat
+      type buffered_hipchat
       api_token XXX
       default_room my_room
       default_from fluentd
