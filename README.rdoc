@@ -33,5 +33,7 @@
 
 = Copyright
 
-Copyright:: Copyright (c) 2012- Yuichi Tateno
+Copyright:: Copyright (c) 2014- Keisuke SOGAWA
 License::   Apache License, Version 2.0
+
+This plugin is forked from Yuichi Tateno's fluent-plugin-hipchat[https://github.com/hotchpotch/fluent-plugin-hipchat]
